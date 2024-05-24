@@ -1,0 +1,35 @@
+{
+  "name": "radash-study",
+  "version": "1.0.0",
+  "description": "radash-study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ui": "vitest --ui",
+    "lint": "eslint src --ext .js,.ts",
+    "vite preview": "npx vite preview --outDir ./html",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "private": true,
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "@vitest/ui": "^1.6.0",
+    "eslint": "^8.57.0",
+    "tsx": "^4.11.0",
+    "vitepress": "^1.2.2",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "volta": {
+    "node": "18.20.1"
+  }
+}
