@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { set_sidebar } from './utils'
+import { metaData } from './constants'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,13 +12,19 @@ export default defineConfig({
   base: '/radash-study/',
   head: [
     ['link', { rel: 'icon', href: '/radash-study/logo.png' }],
-    [
-      'meta',
-      {
-        name: 'referrer',
-        content: 'no-referrer'
-      }
-    ]
+    ['meta', { name: 'author', content: 'JinYue' }],
+    ['meta', { name: 'keywords', content: 'Radash, 源码学习' }],
+    ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+    ['meta', { name: 'HandheldFriendly', content: 'True' }],
+    ['meta', { name: 'MobileOptimized', content: '320' }],
+    ['meta', { name: 'theme-color', content: '#3c8772' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:locale', content: metaData.locale }],
+    ['meta', { property: 'og:title', content: metaData.title }],
+    ['meta', { property: 'og:description', content: metaData.description }],
+    ['meta', { property: 'og:site', content: metaData.site }],
+    ['meta', { property: 'og:site_name', content: metaData.title }],
+    ['meta', { property: 'og:image', content: metaData.image }]
   ],
   cleanUrls: true,
   themeConfig: {
