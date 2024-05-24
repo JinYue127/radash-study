@@ -64,7 +64,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/JinYue127/radash-study/tree/master/src/:path',
+      pattern: 'https://github.com/JinYue127/radash-study/tree/master/docs/:path',
       text: '在 Github 上编辑此页面'
     },
     // https://vitepress.dev/reference/default-theme-config
