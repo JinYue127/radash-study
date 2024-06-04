@@ -16,4 +16,6 @@ isEqual(22, 'abc')        // => false
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/typed.ts#isEqual{ts}
+:::

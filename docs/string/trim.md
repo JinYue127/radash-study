@@ -20,4 +20,6 @@ trim('222__hello__111', '12_') // => hello
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#trim{ts}
+:::

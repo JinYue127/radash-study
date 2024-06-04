@@ -12,4 +12,6 @@ camel('green fish blue fish') // => greenFishBlueFish
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#camel{ts}
+:::

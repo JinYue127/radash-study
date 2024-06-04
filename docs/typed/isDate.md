@@ -17,4 +17,6 @@ isDate('hello')    // => false
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/typed.ts#isDate{ts}
+:::

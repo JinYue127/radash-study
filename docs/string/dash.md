@@ -12,4 +12,7 @@ dash('green fish blue fish') // => green-fish-blue-fish
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#dash{ts}
+:::
+

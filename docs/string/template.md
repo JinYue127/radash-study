@@ -13,4 +13,6 @@ template('It is <color>', { color: 'blue' }, /<(.+?)>/g) // => It is blue
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#template{ts}
+:::

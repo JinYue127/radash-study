@@ -22,4 +22,6 @@ snake('5green fish 2blue fish', {
 ```
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#snake{ts}
+:::

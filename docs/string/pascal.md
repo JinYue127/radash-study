@@ -13,4 +13,6 @@ pascal('va va boom') // => 'VaVaBoom'
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#pascal{ts}
+:::

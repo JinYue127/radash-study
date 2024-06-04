@@ -27,6 +27,7 @@ export default defineConfig({
     ['meta', { property: 'og:image', content: metaData.image }]
   ],
   cleanUrls: true,
+  srcExclude: ['README.md'],
   themeConfig: {
     footer: {
       message: 'Radash 源码学习'
@@ -70,7 +71,42 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Functions', link: '/array/' }
+      {
+        text: '目录', items: [
+          {
+            text: 'Array',
+            link: '/array/'
+          },
+          {
+            text: 'Async',
+            link: '/async'
+          },
+          {
+            text: 'Curry',
+            link: '/curry'
+          },
+          {
+            text: 'Number',
+            link: '/number'
+          },
+          {
+            text: 'Object',
+            link: '/object'
+          },
+          {
+            text: 'Random',
+            link: '/random'
+          },
+          {
+            text: 'String',
+            link: '/string'
+          },
+          {
+            text: 'Typed',
+            link: '/typed'
+          }
+        ]
+      }
     ],
 
     sidebar: [

@@ -12,4 +12,6 @@ capitalize('green fish blue FISH') // => Green fish blue fish
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/string.ts#capitalize{ts}
+:::

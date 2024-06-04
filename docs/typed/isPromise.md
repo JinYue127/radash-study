@@ -14,4 +14,6 @@ isPromise(new Promise(res => res())) // => true
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/typed.ts#isPromise{ts}
+:::
