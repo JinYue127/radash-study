@@ -34,4 +34,6 @@ console.log(err.errors[1].message) // => No, I don't want to find user 2
 :::
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#parallel{ts}
+:::

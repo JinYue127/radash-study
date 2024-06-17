@@ -31,4 +31,6 @@ await defer(async (register) => {
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#defer{ts}
+:::

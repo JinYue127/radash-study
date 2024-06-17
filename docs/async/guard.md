@@ -22,5 +22,6 @@ const user = (await guard(fetchUser, isInvalidUserError)) ?? DEFAULT_USER
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#guard{ts}
-
+:::

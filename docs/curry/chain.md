@@ -3,6 +3,7 @@
 链接函数将导致它们一个接一个地执行，将每个函数的输出作为下一个函数的输入传递，并在链的末尾返回最终输出。
 
 ## 基本用法
+
 ::: code-group
 
 ```ts[example1.ts]
@@ -44,7 +45,11 @@ const getUpperName = chain(
 getUpperName(gods[0])       // => 'RA'
 gods.map(getUpperName)      // => ['RA', 'ZEUS', 'LOKI']
 ```
+
 :::
+
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#chain{ts}
+:::

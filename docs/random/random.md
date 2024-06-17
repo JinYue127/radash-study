@@ -12,4 +12,6 @@ random(0, 100) // => a random number between 0 and 100
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/random.ts#random{ts}
+:::

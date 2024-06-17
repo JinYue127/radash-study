@@ -2,9 +2,11 @@
 
 为一系列项目创建一个索引和操作方法的工具集。
 
-## 基本用法
+## 用法
 
-```ts
+:::code-group
+
+```ts[基本用法]
 import { series } from 'radash'
 
 type Weekday = 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday'
@@ -28,11 +30,9 @@ weekdays.next('friday', weekdays.first()) // => 'monday'
 weekdays.spin('monday', 3) // => 'thursday'
 ```
 
-### 复杂数据类型
+```typescript[复杂数据类型]
+// 使用对象时，您需要为 series 提供第二个参数，该函数将非原始值转换为可以检查相等性的标识。
 
-使用对象时，您需要为 series 提供第二个参数，该函数将非原始值转换为可以检查相等性的标识。
-
-```typescript
 import { series } from 'radash'
 
 type Weekday = {
@@ -54,6 +54,10 @@ weekdays.next({ day: 'wednesday' }) // => { day: 'thursday' }
 weekdays.previous({ day: 'tuesday' }) // => { day: 'monday' }
 ```
 
+:::
+
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/series.ts#series{ts}
+:::

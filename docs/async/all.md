@@ -35,4 +35,6 @@ const result = await _.all({
 :::
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#all{ts}
+:::

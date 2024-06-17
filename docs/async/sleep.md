@@ -12,4 +12,6 @@ await sleep(2000) // => waits 2 seconds
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#sleep{ts}
+:::

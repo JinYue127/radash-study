@@ -14,4 +14,6 @@ toFloat(null, 3.33) // => 3.33
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/number.ts#toFloat{ts}
+:::

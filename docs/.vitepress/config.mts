@@ -9,6 +9,7 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://jinyue127.github.io/radash-study/'
   },
+  metaChunk: true,
   base: '/radash-study/',
   head: [
     ['link', { rel: 'icon', href: '/radash-study/logo.png' }],

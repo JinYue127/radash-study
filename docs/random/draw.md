@@ -14,4 +14,6 @@ draw(fish) // => a random fish
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/random.ts#draw{ts}
+:::

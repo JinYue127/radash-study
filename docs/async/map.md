@@ -16,4 +16,6 @@ const users = await map(userIds, async (userId) => {
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#map{ts}
+:::

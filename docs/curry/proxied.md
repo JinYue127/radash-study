@@ -27,4 +27,6 @@ person.getLocation() // => here
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#proxied{ts}
+:::

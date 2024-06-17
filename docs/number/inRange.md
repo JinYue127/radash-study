@@ -19,4 +19,6 @@ inRange(1, 0) // false
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/number.ts#inRange{ts}
+:::

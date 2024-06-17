@@ -31,4 +31,6 @@ expect(x.id).toBe('9')
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#callable{ts}
+:::

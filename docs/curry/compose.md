@@ -3,7 +3,9 @@
 在函数组合中，每个函数都会被赋予下一个函数作为参数，并且必须调用它才能继续执行。
 
 ## 基本用法
+
 ::: code-group
+
 ```ts[example]
 import { compose } from 'radash'
 
@@ -23,7 +25,6 @@ const composed = compose(
 composed() // => 2
 ```
 
-
 ```ts[分解]
 //这是一个分解的构图。它相当于上面的代码。
 const decomposed = (
@@ -36,8 +37,11 @@ const decomposed = (
 
 decomposed() // => 2
 ```
+
 :::
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#compose{ts}
+:::

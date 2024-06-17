@@ -5,7 +5,9 @@ Debounce 接受一个带有 `delay` 的选项对象和一个在调用时调用�
 不会导致调用源的调用会重置延迟，从而推迟下一次调用。
 
 ## 基本用法
+
 ::: code-group
+
 ```ts[example]
 import { debounce } from 'radash'
 
@@ -42,8 +44,11 @@ const debounced = debounce({ delay: 100 }, api.feed.refresh)
 
 debounced.isPending()
 ```
+
 :::
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#debounce{ts}
+:::

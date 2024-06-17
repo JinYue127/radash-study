@@ -16,4 +16,6 @@ uid(20, '*') // => dyJdbC*NsEgcnGjTHS
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/random.ts#uid{ts}
+:::

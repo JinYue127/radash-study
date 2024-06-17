@@ -14,4 +14,6 @@ toInt(null, 3) // => 3
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/number.ts#toInt{ts}
+:::

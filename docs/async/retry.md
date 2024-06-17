@@ -20,4 +20,6 @@ await retry({ backoff: i => 10 ** i }, api.users.list)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/async.ts#retry{ts}
+:::

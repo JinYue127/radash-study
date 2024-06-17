@@ -5,7 +5,9 @@ Throttle 接受一个带有 `interval` 的选项对象和一个在调用时调�
 否则，它将忽略该调用。
 
 ## 基本用法
+
 ::: code-group
+
 ```ts[example.ts]
 import { throttle } from 'radash'
 
@@ -24,8 +26,11 @@ const debounced = throttle({ interval: 200 }, onMouseMove)
 
 debounced.isThrottled()
 ```
+
 :::
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#throttle{ts}
+:::

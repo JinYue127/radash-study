@@ -3,7 +3,9 @@
 用 memo 包装一个函数，缓存函数调用的结果，以减少重复计算。
 
 ## 基本用法
+
 ::: code-group
+
 ```ts[example.ts]
 import { memo } from 'radash'
 
@@ -50,8 +52,11 @@ const beta = timestamp({ group: 'beta' })
 now === later // => true
 beta === now // => false
 ```
+
 :::
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/curry.ts#memo{ts}
+:::
