@@ -19,4 +19,6 @@ intersects(oceanFish, brackishFish) // => true
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#intersects{ts}
+:::

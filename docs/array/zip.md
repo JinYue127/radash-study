@@ -20,4 +20,6 @@ zip(names, cultures)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#zip{ts}
+:::

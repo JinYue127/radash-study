@@ -41,4 +41,6 @@ toggle(gods, 'vishnu', g => g, { strategy: 'prepend' })
 :::
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#toggle{ts}
+:::

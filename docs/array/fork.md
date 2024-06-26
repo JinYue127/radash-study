@@ -32,4 +32,6 @@ const [finalGods, lesserGods] = fork(gods, f => f.power > 90)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#fork{ts}
+:::

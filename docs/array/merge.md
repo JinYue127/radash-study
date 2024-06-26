@@ -32,4 +32,6 @@ merge(gods, newGods, f => f.name)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#merge{ts}
+:::

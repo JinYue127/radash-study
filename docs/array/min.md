@@ -32,4 +32,6 @@ min(fish, f => f.weight)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#min{ts}
+:::

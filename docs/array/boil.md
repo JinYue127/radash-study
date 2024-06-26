@@ -22,10 +22,12 @@ const fish = [
   }
 ]
 
-const fishBySource = group(fish, f => f.source) 
+const fishBySource = group(fish, f => f.source)
 // => { ocean: [marlin], lake: [bass, trout] }
 ```
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#boil{ts}
+:::

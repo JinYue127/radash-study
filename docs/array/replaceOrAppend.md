@@ -40,4 +40,6 @@ replaceOrAppend(fish, sockeye, f => f.name === 'Sockeye')
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#replaceOrAppend{ts}
+:::

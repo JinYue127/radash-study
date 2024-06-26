@@ -33,4 +33,6 @@ alphabetical(gods, g => g.name, 'desc') // => [Zeus, Vishnu, Ra, Loki]
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#alphabetical{ts}
+:::

@@ -20,4 +20,6 @@ cluster(gods, 3)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#cluster{ts}
+:::

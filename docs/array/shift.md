@@ -13,4 +13,6 @@ shift(arr, 3) // => [7, 8, 9, 1, 2, 3, 4, 5, 6]
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#shift{ts}
+:::

@@ -15,4 +15,6 @@ const lastItem = last([], 'bass') // => 'bass'
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#last{ts}
+:::

@@ -20,4 +20,6 @@ const value = iterate(
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#iterate{ts}
+:::

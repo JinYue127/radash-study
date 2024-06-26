@@ -43,4 +43,6 @@ replace(fish, salmon, f => f.name === 'Bass')
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#replace{ts}
+:::

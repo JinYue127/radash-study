@@ -27,4 +27,6 @@ sum(fish, f => f.weight) // => 125
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#sum{ts}
+:::

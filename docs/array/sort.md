@@ -28,4 +28,6 @@ sort(fish, f => f.weight, true) // => [marlin, trout, bass]
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#sort{ts}
+:::

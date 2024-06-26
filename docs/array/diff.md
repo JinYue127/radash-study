@@ -15,4 +15,6 @@ diff(oldWorldGods, newWorldGods) // => ['ra']
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/array.ts#diff{ts}
+:::
