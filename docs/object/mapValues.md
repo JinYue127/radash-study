@@ -18,4 +18,6 @@ mapValues(ra, (value, key) => key) // => { mode: 'mode', power: 'power' }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#mapValues{ts}
+:::

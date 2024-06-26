@@ -18,4 +18,6 @@ mapKeys(ra, (key, value) => value) // => { god: 'god', power: 'power' }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#mapKeys{ts}
+:::

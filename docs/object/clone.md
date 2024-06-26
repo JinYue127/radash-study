@@ -20,4 +20,6 @@ clone(gods) // => copy of gods
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#clone{ts}
+:::

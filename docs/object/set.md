@@ -16,4 +16,6 @@ set({}, 'cards[0].value', 2)
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#set{ts}
+:::

@@ -19,4 +19,6 @@ pick(fish, ['name', 'source']) // => { name, source }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#pick{ts}
+:::

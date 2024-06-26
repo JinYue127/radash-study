@@ -22,4 +22,6 @@ listify(fish, (key, value) => ({ ...value, name: key }))
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#listify{ts}
+:::

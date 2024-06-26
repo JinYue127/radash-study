@@ -20,4 +20,6 @@ mapEntries(ra, (key, value) => [key.toUpperCase(), `${value}`])
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#mapEntries{ts}
+:::

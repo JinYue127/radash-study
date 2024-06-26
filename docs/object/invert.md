@@ -18,4 +18,6 @@ invert(gods) // => { sun: ra, tricks: loki, lightning: zeus }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#invert{ts}
+:::

@@ -19,4 +19,6 @@ omit(fish, ['name', 'source']) // => { weight, brackish }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#omit{ts}
+:::

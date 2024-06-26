@@ -17,4 +17,6 @@ lowerize(ra) // => { mode, power }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#lowerize{ts}
+:::

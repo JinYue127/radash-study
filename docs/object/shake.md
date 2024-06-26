@@ -19,4 +19,6 @@ shake(ra, a => !a) // => { mode }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#shake{ts}
+:::

@@ -17,4 +17,6 @@ upperize(ra) // => { MODE, POWER }
 
 ## 源码
 
+::: details 点我查看代码
 <<< ../../src/object.ts#upperize{ts}
+:::
